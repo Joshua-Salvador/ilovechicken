@@ -1,0 +1,113 @@
+body {
+  margin: 0;
+  text-align: center;
+  font-family: 'Montserrat Alternates', sans-serif;
+}
+a {
+  text-decoration: none;
+  color: #000;
+}
+.company{
+  color: aliceblue
+}
+.company:hover {
+  color: aliceblue
+}
+a:hover {
+  text-decoration: none;
+}
+/* Header */
+#head{
+  background-color: #222831;
+  background-repeat: no-repeat;
+  color: aliceblue;
+  padding: 2% 5% 5%;
+}
+#links {
+  margin: auto;
+}
+.nav-item {
+  padding: 0 20px;
+}
+.navbar-brand {
+  font-weight: bold;
+  font-family: 'Ubuntu', sans-serif;
+}
+.navbar-toggler{
+  color: white;
+}
+.nav-link {
+  color: aliceblue;
+}
+.header-img {
+  width: 50%;
+  margin-left: 10%;
+}
+.caption {
+  font-size: 2.5rem;
+  margin-top: 12%;
+  margin-left: 16px;
+  text-align: left;
+}
+/* Chicken Parts */
+#chicken-parts {
+  background-color: #eeeeee;
+  padding: 10%;
+}
+.carousel-img {
+  width: 20%;
+}
+.carousel-control-prev-icon{
+  margin-right: 20%;
+}
+.carousel-control-next-icon{
+  margin-left: 20%;
+}
+.desc {
+  width: 80%;
+  line-height: 2;
+  padding: 5%;
+  margin: auto;
+}
+/* Favorite Restaurants */
+#favorite-restaurants {
+  background-color: #222831;
+  padding: 10%;
+}
+#favorite-restaurants img{
+  width: 50%;
+  border-radius: 50%;
+}
+.restaurant {
+  color:black
+}
+.pricing-column {
+  height: 30%;
+}
+.card {
+  background-color: #eeeeee;
+  margin-bottom: 25px;
+}
+.favorite-restaurants-caption {
+  margin-bottom: 10%;
+  color: aliceblue
+}
+/* Footer */
+footer {
+  padding: 1%;
+}
+.logos {
+  padding: 2%;
+}
+.logos i {
+  padding: 2%;
+}
+.copyright {
+  font-size: 0.5rem;
+}
+
+@media (max-width: 991px){
+  .caption {
+    text-align: center;
+  }
+}
